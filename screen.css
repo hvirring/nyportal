@@ -1,0 +1,162 @@
+body {
+	margin:0;
+	padding:8px 0;
+	background-color:#fff;
+	font-family:verdana,sans-serif;
+	font-size:12px;
+	color:#444;
+}
+
+a {color:#444}
+
+small a {text-decoration:none}
+
+a:hover {
+	color:#036;
+	text-decoration:underline;
+}
+
+h1 {
+	font-family:georgia,times,serif;
+	font-size:26px;
+	font-weight:normal;
+	color:#f60;
+}
+
+h2 {
+	margin:0;
+	font-family:georgia,times,serif;
+	font-size:16px;
+	color:#f60;
+}
+
+h3 {
+	margin:5px;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#container {
+	width:760px;
+	margin:0 auto;
+}
+
+#topleft {
+	width:380px;
+	margin:6px 0 10px 0;
+	float:left;
+	font-family:verdana,sans-serif;
+}
+
+#topleft a {
+	text-decoration:none;
+}
+
+#topleft a:hover {
+	text-decoration:underline;
+}
+
+#topright {
+	width:380px;
+	margin-bottom:10px;
+	float:left;
+	font-family:verdana,sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:right;
+}
+
+#subheader {
+	width:260px;
+	margin-left:250px;
+	padding-bottom:20px;
+	background-color:#e1e6f4;
+}
+
+#intro {
+	margin-top:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top:1px solid #d1d6e4;
+}
+
+#intro h1 {
+	width:350px;
+	margin:0 30px 10px 0;
+	float:left;
+	line-height:46px;
+	text-align:right;
+}
+
+#intro p {
+	width:350px;
+	margin:10px 0 0 380px;
+}
+
+
+#references {
+	padding-top:10px;
+	text-align:center;
+	border-bottom:1px solid #d1d6e4;
+}
+
+#team {
+	margin-top:0;
+	padding-bottom:0;
+}
+
+#team p {
+	margin:0 0 8px 0;
+	font-size:11px;
+	line-height:1.5em;
+}
+
+#team .left {
+	width:240px;
+	margin-right:10px;
+	padding-top:30px;
+	float:left;
+}
+
+#team .center {
+	width:240px;
+	margin-right:10px;
+	padding-top:30px;
+	float:left;
+	background-color:#e1e6f4;
+	border-left: 10px solid #e1e6f4;
+	border-right: 10px solid #e1e6f4;
+}
+
+#team .right {
+	width:240px;
+	margin-right:0;
+	padding-top:30px;
+	float:left;
+}
+
+#team .contact {
+	font-weight:bold;	
+	margin-bottom:10px;
+}
+
+#team a {
+	text-decoration:none;
+}
+
+#team a:hover {
+	text-decoration:underline;
+}
+
+#footer {
+	margin-bottom:10px;
+	padding-top:10px;
+	border-top:1px solid #d1d6e4;
+	text-align:center;
+}
+
+.clear {
+	clear:both;
+	overflow:hidden;
+	height:0;
+}
